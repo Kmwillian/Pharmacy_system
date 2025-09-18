@@ -23,16 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-r42-1vy^(5y(he&6lkx9qh^f8pz%7u5*^bep34vx33x(53srg^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 #ALLOWED_HOSTS = []
 # In your pharmacy/settings.py file, update the ALLOWED_HOSTS setting:
 
-ALLOWED_HOSTS = [
-    'chemist-system-2.onrender.com',  # Your production domain
-    '127.0.0.1',                      # For local development
-    'localhost',                      # Alternative local development
-]
+ALLOWED_HOSTS = ['pharmacy.onrender.com']
 
 # Or if you're only developing locally and want to allow all hosts temporarily:
 # ALLOWED_HOSTS = ['*']  # WARNING: Only use this for development, never in production!
