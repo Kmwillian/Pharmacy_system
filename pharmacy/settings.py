@@ -32,7 +32,8 @@ SECRET_KEY = 'django-insecure-r42-1vy^(5y(he&6lkx9qh^f8pz%7u5*^bep34vx33x(53srg^
 DEBUG = config('DEBUG', default=False, cast=bool)
 #ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='yourapp.onrender.com').split(',')
 #ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='.onrender.com,localhost,127.0.0.1').split(',')
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'yourapp.onrender.com']
+#ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'yourapp.onrender.com']
+ALLOWED_HOSTS = ['chemist-pos.onrender.com', '127.0.0.1', 'localhost']
 
 
 
