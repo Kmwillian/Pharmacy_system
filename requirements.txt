@@ -7,3 +7,4 @@ whitenoise
 python-decouple
 dj-database-url
 Pillow
+requests
